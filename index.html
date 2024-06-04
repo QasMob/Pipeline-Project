@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/modern-normalize.css">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
     <link rel="stylesheet" href="./styles/utils.css">
     <title>Pipeline Homepage</title>
 </head>
 <body>
+    <header class="header container">
+        <img src="./public/image.png" alt="logo"
+        width="1523"
+        height="478"
+        class="header__logo"
+        >
+    <!-- accessibility purposes aria-label -->
+    <button class="header__bars" aria-label="menu button" aria-hidden="true"   
+    > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+        <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+      </svg></button>
+
+      <nav class="header__menu">
+       <div class="header__links">
+        <a href="#">Home</a>
+        <a href="#">Programs</a>
+        <a href="#">About</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Future Plans</a>
+       </div>
+        <div class="header__btns">
+            <button class="btn2 header__menu-btn1">Sign in</button>
+            <button class="btn header__menu-btn2">Get Started</button>
+        </div>
+      </nav>
+
+    </header>
+    <!-- <main> -->
+        <!-- <section></section> -->
+    <!-- </main> -->
+    <!-- <footer></footer> -->
 </body>
 </html>
