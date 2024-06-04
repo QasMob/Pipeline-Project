@@ -91,12 +91,10 @@ p {
 
 a {
     color: var(--clr-neutral600);
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
-a:hover {
-    color: var(--clr-link);
-}
+
 
 strong {
     color: var(--clr-bold);

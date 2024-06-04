@@ -66,23 +66,33 @@
         gap: 15rem;
     }
 
-    .header__links {
-        /* border: 5px solid red; */
+    .header__links  {
         display: flex;
         gap: 2rem;
         font-size: var(--size-base);
         font-weight: 600;
     }
 
+    .header__links a {
+        text-decoration: none;
+    }
+
+    .header__links a:hover {
+        color: var(--clr-link);
+    }
   
 
     .header__btns {
         display: flex;
         gap: 1rem;
+        font-size: var(--size-base);
     }
 
     
 }
+
+
+
 
 /* 2xl */
 @media (min-width: 1536px) {
@@ -94,7 +104,7 @@
     }
 
     .header__menu {
-        gap: 22rem;
+        gap: 23rem;
     }
 
     .header__links {
@@ -102,15 +112,6 @@
     }
 
     .header__btns {
-        font-size: var(--size-lg);
-    }
-
-
-    .header__menu-btn1 {
-        font-size: var(--size-lg);
-    }
-
-    .header__menu-btn2 {
         font-size: var(--size-lg);
     }
 }
