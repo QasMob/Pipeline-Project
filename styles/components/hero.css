@@ -1,0 +1,146 @@
+
+
+.hero {
+
+    display: flex;
+    gap: 10rem;
+    justify-content: left;
+    align-items: center;
+
+
+}
+
+.hero__right {
+    display: none;
+}
+
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title {
+    font-size: var(--size-2xl);
+    letter-spacing: 1;
+    margin-bottom: var(--size-xs);
+}
+
+.hero__description {
+    font-size: var(--size-xs);
+    margin-bottom: 2.5rem;
+}
+
+.hero__btns {
+    display: flex;
+    font-size: var(--size-xs);
+    gap: var(--size-xs);
+    
+}
+
+.hero__btns a {
+    flex: 1;
+    text-align: center;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .hero__title {
+        font-size: var(--size-3xl);
+    }
+
+    .hero__description {
+        font-size: var(--size-sm);
+    }
+
+    .hero__btns {
+        font-size: var(--size-sm);
+    }
+}
+
+/* sm */
+@media (min-width: 640px) { 
+
+    .hero__title {
+        max-width: 20ch;
+        text-align: left;
+        
+    }
+
+    .hero__description {
+        max-width: 35ch;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+
+
+    .hero__title {
+        font-size: var(--size-4xl);
+    }
+
+    .hero__description {
+        font-size: var(--size-base);
+    }
+
+    .hero__btns {
+        font-size: var(--size-base);
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .hero__btns a{
+        flex: none;   
+    }
+
+    .hero__title {
+        font-size: var(--size-5xl);
+        max-width: 25ch;
+    }
+
+    .hero__description {
+        font-size: var(--size-lg);
+    }
+
+    .hero__btns {
+        font-size: var(--size-lg);
+    }
+
+
+
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+
+
+    .hero__right {
+        /* border: 5px solid red; */
+        display: block;
+        display: flex;
+        justify-content: right;
+    }
+
+    .hero__img {
+        width: 50rem;
+        /* height: 30rem; */
+        height: auto;
+        object-fit: contain;
+       
+    }
+
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .hero__img {
+        width: 60rem;
+        /* height: 30rem; */
+    }
+
+
+}

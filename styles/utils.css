@@ -25,7 +25,7 @@
   
   .btn{
    display: inline-block;
-   background-color: var(--clr-blue);
+   background: var(--clr-gradient);
    color: var(--clr-neutral950);
    padding: 0.5em 1em; 
    font-weight: 600;
@@ -33,7 +33,7 @@
    font-weight: 600;
    line-height: 1.75rem;
    text-decoration: none;
-   transition: background-color 0.3s;
+   transition: background 1s ease; 
   }
 
   .btn2 {
@@ -57,9 +57,16 @@
 
 
   .btn:hover {
-    background-color: var(--clr-hover);
+    background:  var(--clr-gradientLight);
   }
 
+  .title { 
+    text-align: center;
+  }
+
+  .section {
+    margin-top: 3rem;
+  }
 
 
 

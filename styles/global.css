@@ -15,12 +15,15 @@
     --clr-neutral50: #F3F7F8;
     --clr-blue: #4C93F6;
     --clr-hover: #59DCF7;
-    
-    
-
+  
     --clr-link: #428EF8;
     --clr-bold: #2171E0;
 
+
+    /* gradients */
+
+    --clr-gradient: linear-gradient(90deg, #4C93F6, #52CEE7);
+    --clr-gradientLight: linear-gradient(90deg, #52CEE7, #4C93F6);
 
         /* sizes */
     --size-xxs: 0.5rem;
@@ -91,13 +94,14 @@ p {
 
 a {
     color: var(--clr-neutral600);
-    /* text-decoration: none; */
 }
 
 
 
 strong {
-    color: var(--clr-bold);
+    background: var(--clr-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 900;
 }
 
