@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/components/header.css">
     <link rel="stylesheet" href="./styles/components/hero.css">
-    <link rel="stylesheet" href="styles/components/program.css">
+    <link rel="stylesheet" href="./styles/components/program.css">
+    <link rel="stylesheet" href="./styles/components/about.css">
     <link rel="stylesheet" href="./styles/utils.css">
     <title>Pipeline Homepage</title>
 </head>
@@ -29,11 +30,11 @@
 
       <nav class="header__menu">
        <div class="header__links">
-        <a href="#">Home</a>
-        <a href="#">Programs</a>
-        <a href="#">About</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Future Plans</a>
+        <a href="#homePage">Home</a>
+        <a href="#sectionPage" >Programs</a>
+        <a href="#aboutPage">About</a>
+        <a href="">Testimonials</a>
+        <a href="">Future Plans</a>
        </div>
         <div class="header__btns">
             <button class="btn2 header__menu-btn1">Sign in</button>
@@ -43,7 +44,7 @@
 
     </header>
     <main> 
-        <section class="hero container section ">
+        <section id="homePage" class="hero container section ">
          <div class="hero__left">
             <h1 class="hero__title">Building <strong>Bridges</strong> from Academia to Real-World <strong>Success</strong></h1>
             <p class="hero__description">Empowering Guelph's students through practical experience and career development</p>
@@ -60,7 +61,7 @@
             >
          </div>
         </section>
-        <section class="program container section">
+        <section id="sectionPage" class="program container section">
             <p class="title">Programs</p>
             <h2 class="program__title">Explore Our <strong>Programs!</strong></h2>
             <p class="program__description">Discover the possibilities within our exclusive PIPELINE programs, each tailored to bridge the gap between academic theory and professional practice.</p>
@@ -73,6 +74,8 @@
                     width="3072"
                     height="1728"
                     
+                   
+                   
                     >
                     <div class="program__container-right">
                         <div class="program__container-right-top">
@@ -127,7 +130,42 @@
                 </div>
             </div>
         </section>
+        <section id="aboutPage" class="about container section">
+            <p class="title">About</p>
+            <h2 class="about__title">Discover Our Identity!</h2>
+            <p class="about__description">“To Strive. To Create. To Serve.
+                By Gryphons, For Gryphons”</p>
+            <div class="about__container">
+              <div class="about__container-1">
+                <div class="about__container-1-top">
+                    <h2 class="about__container-title1">About Us!</h2>
+                    <p class="about__container-description1">Established by Katherine Yu, Pipeline to Success stands as a beacon for students navigating the transition from university life to their future careers. As an official student organization, we're committed to guiding you through the pivotal moments of your academic journey.</p>
+                </div>
+               <div class="about__container-imgs">
+                <img src="./public/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" 
+                class="about__container-img1"
+                alt="people on laptop laughing">
+                <img src="./public/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg"
+                 alt="pointing at monitor"
+                 class="about__container-img2"
+                 >
+               </div>
+              </div>
+              <div class="about__container-2">
+                <div class="about__container-2-top">
+                    <h2 class="about__container-title2">Our Mission!</h2>
+                    <p class="about__container-description2">Our mission is to create essential links that advance students towards their career ambitions. We provide a variety of programs aimed at offering practical, real-world experiences in clinical and research settings. Each initiative is thoughtfully designed to offer meaningful support that enriches students' academic paths.</p>
+                </div>
+               <div class="about__img3-container">
+                <img src="./public/gryphon.png"
+                class="about__container-img3" 
+                alt="gryphon mascot">
+               </div>
+              </div>
+            </div>
+        </section>
     </main>
     <!-- <footer></footer> -->
+    <section style="height: 100vh;"></section>
 </body>
 </html>

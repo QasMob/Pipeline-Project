@@ -124,7 +124,7 @@
     }
 
     .hero__img {
-        width: 50rem;
+        width: 80rem;
         /* height: 30rem; */
         height: auto;
         object-fit: contain;
@@ -140,5 +140,28 @@
         /* height: 30rem; */
     }
 
+    .hero__title {
+        font-size: var(--size-6xl);
+        max-width: 25ch;
+    }
+
+    .hero__description {
+        font-size: var(--size-xl);
+    }
+
+    .hero__btns {
+        font-size: var(--size-xl);
+    }
+
+   
+
+    .hero__img {
+        width: 90rem;
+        /* height: 30rem; */
+        height: auto;
+        object-fit: contain;
+       
+
+}
 
 }

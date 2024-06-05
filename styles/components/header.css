@@ -1,9 +1,15 @@
 .header{
+    width: 20rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--clr-white);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding-bottom: -100rem;
+    z-index: 10000;
 }
+
 
 
 .header__logo {
@@ -54,7 +60,6 @@
 
     .header {
         /* border: 5px solid red; */
-        margin-top: -2.5rem;
         justify-content: space-between;
     }
 
@@ -88,6 +93,10 @@
         display: flex;
         gap: 1rem;
         font-size: var(--size-base);
+    }
+
+    .header {
+        margin-bottom: -10rem;
     }
 
     

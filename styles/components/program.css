@@ -57,6 +57,8 @@
     margin-bottom: 3rem;
 }
 
+
+
 /* xs */
 /* @media (min-width: 475px) {} */
 
@@ -159,7 +161,7 @@
         /* border: 5px solid red; */
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .program__btn-container a {
@@ -192,12 +194,16 @@
     .program__container {
         display: flex;
         flex-direction: column;
+    
     }
 
     .box {
         display: flex;
         gap: 2rem;
+        
     }
+
+
 
 
 }

@@ -36,7 +36,12 @@
    text-decoration: none;
    transition: background 1s ease; 
   }
+  
+  .btn:hover {
+    background:  var(--clr-gradientLight);
+  }
 
+  
   .btn2 {
     display: inline-block;
     border: solid 3px var(--clr-neutral200);
@@ -57,9 +62,6 @@
   }
 
 
-  .btn:hover {
-    background:  var(--clr-gradientLight);
-  }
 
   .title { 
     text-align: center;
