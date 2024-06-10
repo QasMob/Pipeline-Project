@@ -1,6 +1,7 @@
 .team {
     /* border: 5px solid red; */
     display: flex;
+    min-width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -55,6 +56,8 @@
 .team__btn-container {
     text-align: center;
 }
+
+
 
 /* xs */
 @media (min-width: 475px) {
@@ -115,6 +118,24 @@
 
 /* md */
 @media (min-width: 768px) {
+
+    .team__container-box1 {
+        min-height: 398px;
+        max-width: 371px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    .team__box1-img {
+        margin-bottom: 1rem;
+    }    
+
+
+    .team__box1-title {
+        margin-bottom: 0.5rem;
+    }
 
     .team__container {
         display: flex;

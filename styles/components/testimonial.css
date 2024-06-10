@@ -193,6 +193,7 @@
         margin-bottom: 3rem;
     }
 
+    
 
 
 }
@@ -219,8 +220,8 @@
     
     .testtestimonial__box1-img {
         position: absolute;
-        top: -5rem;
-        left: 0;
+        top: -3rem;
+        left: -5rem;
     }
      
 
@@ -241,8 +242,8 @@
 
     .testtestimonial__box2-img {
         position: absolute;
-        top: -5rem;
-        right: 0;
+        top: -3rem;
+        right: -5rem;
     }
      
 
@@ -263,6 +264,10 @@
     .testimonial__box2-date {
         text-align: end;
     }
+
+    .testimonial__container {
+        margin-top: 5rem;
+}
 
 
 }
@@ -285,6 +290,19 @@
         text-align: center;
         margin-bottom: 3rem;
     }
+
+    
+    .testimonial__box1-description {
+        max-width: 65ch;
+         text-align: left;
+}
+
+    .testimonial__box2-description {
+        max-width: 65ch;
+        text-align: right;
+}
+
+
 
 
 }
