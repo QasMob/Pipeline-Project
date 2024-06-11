@@ -7,7 +7,18 @@
     justify-content: center;
     background-color: var(--clr-neutral50);
     padding: 5rem 0;
+    position: relative;
 }
+
+
+.team__lines {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-height: 54.3rem;
+
+}
+
 
 .team__title{
     text-align: center;
@@ -109,7 +120,7 @@
     }
 
     .team__box1-description {
-        font-size: var(--size-lg);
+        font-size: 1rem;
         text-align: center;
     }
 

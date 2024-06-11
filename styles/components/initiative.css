@@ -6,6 +6,16 @@
     align-items: center;
     background-color: var(--clr-neutral50);
     padding: 5rem 0;
+    position: relative;
+}
+
+.initiative_lines {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-height: 43.5rem;
+    scale: 1.5;
+
 }
 
 .initiative__title{

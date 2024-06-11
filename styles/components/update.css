@@ -5,6 +5,14 @@
     align-items: center;
     justify-content: center;
     padding: 5rem 0;
+    position: relative;
+}
+
+.update__line {
+    position: absolute;
+    z-index: -1;
+    top: -13.9rem;
+    scale: 1;
 }
 
 .update__title{

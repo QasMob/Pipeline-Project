@@ -4,6 +4,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.testimonial__box2-name {
+    font-weight: 900;
+}
+
+.testimonial__box1-name {
+    font-weight: 900;
+}
+
+.testimonial__line {
+    position: absolute;
+    z-index: -1;
+    top: -13.9rem;
+    scale: 1.1;
 }
 
 .testimonial__title{
