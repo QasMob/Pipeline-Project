@@ -38,7 +38,8 @@
 
   .btn{
    display: inline-block;
-   background: var(--clr-gradient);
+   background-size: 200%;
+   background-image: var(--clr-gradient);
    color: var(--clr-neutral950);
    padding: 0.5em 1em; 
    font-weight: 600;
@@ -46,11 +47,11 @@
    font-weight: 600;
    line-height: 1.75rem;
    text-decoration: none;
-   transition: background 1s ease; 
+   transition: 0.6s; 
   }
   
   .btn:hover {
-    background:  var(--clr-gradientLight);
+    background-position: right;
   }
 
   
