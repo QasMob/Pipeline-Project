@@ -7,6 +7,14 @@
     background-color: var(--clr-neutral50);
     padding: 5rem 0;
     width: 100%;
+    position: relative;
+}
+
+.program__lines {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-height: 90.3rem;
 }
 
 
