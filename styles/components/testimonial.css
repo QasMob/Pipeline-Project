@@ -11,6 +11,16 @@
     font-weight: 900;
 }
 
+.team__box1-quote {
+    position: absolute;
+    top: 7rem;
+}
+
+.team__box2-quote {
+    position: absolute;
+    top: 7rem;
+}
+
 .testimonial__box1-name {
     font-weight: 900;
 }
@@ -216,6 +226,16 @@
 
 /* md */
 @media (min-width: 768px) {
+
+    .team__box1-quote {
+        position: absolute;
+        top: -1rem;
+    }
+    
+    .team__box2-quote {
+        position: absolute;
+        top: 7rem;
+    }
 
     .testimonial__container {
         display: flex;

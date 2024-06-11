@@ -39,6 +39,7 @@
   .btn{
    display: inline-block;
    background-size: 200%;
+   /* text-align: center; */
    background-image: var(--clr-gradient);
    color: var(--clr-neutral950);
    padding: 0.5em 1em; 
