@@ -275,7 +275,7 @@
     }
     
     .initiative__box1-description {
-        font-size: var(--size-lg);
+        font-size: var(--size-base);
         margin-bottom: var(--size-xl);
     }
     
@@ -296,7 +296,7 @@
     }
     
     .initiative__box2-description {
-        font-size: var(--size-lg);
+        font-size: var(--size-base);
         margin-bottom: var(--size-xl);
         max-width: 45ch;
     }

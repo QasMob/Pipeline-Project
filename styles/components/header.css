@@ -13,6 +13,8 @@
 
 
 
+
+
 .header__logo {
     width: var(--size-9xl);
     height: var(--size-9xl);
@@ -74,6 +76,11 @@
         gap: 15rem;
     }
 
+
+
+    
+
+    
     .header__links  {
         display: flex;
         gap: 2rem;
@@ -81,13 +88,44 @@
         font-weight: 600;
     }
 
-    .header__links a {
-        text-decoration: none;
-    }
 
+    /* link effect */
+
+
+    .header__links a {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        overflow: hidden; /* Ensures the pseudo-element does not overflow the link */
+    }
+    
+    .header__links a::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 0;
+        height: 100%;
+        background-color:  #F4F9FF; /* Background color on hover */
+        transition: width 0.5s ease, left 0.5s ease;
+        z-index: -1;
+        border-radius: 20px;
+    }
+    
+    .header__links a:hover::before {
+        width: 100%;
+        left: 0;
+    }
+    
     .header__links a:hover {
         color: var(--clr-link);
     }
+
+    
+
+
+
   
 
     .header__btns {

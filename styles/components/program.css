@@ -17,6 +17,10 @@
     max-height: 90.3rem;
 }
 
+.program__btn {
+    z-index: 1;
+}
+
 
 
 
@@ -33,6 +37,8 @@
 
 .program__description {
     text-align: center;
+    /* border: 5px solid red; */
+    max-width: 45ch;
     font-size: var(--size-sm);
     margin-bottom: 3rem;
 }

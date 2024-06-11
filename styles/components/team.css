@@ -10,13 +10,30 @@
     position: relative;
 }
 
+.team__container-box1 {
+    box-shadow: 0 0 15px rgba(0, 0, 139, 0.1); 
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team__box1-description {
+    margin-top: 0.5rem;
+    max-width: 45ch;
+}
+
+.team__box1-title {
+    margin-top: 1rem;
+}
 
 .team__lines {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0rem;
     max-height: 54.3rem;
-
+    scale: 1;
+    z-index: -1;
 }
 
 
@@ -27,6 +44,7 @@
     margin-top: var(--size-xs);
     margin-bottom: var(--size-lg);
 }
+
 
 
 
@@ -44,7 +62,7 @@
 .team__container-box1 {
     padding: 20px; /* Adjust padding as needed */
     border-radius: 24px;
-    border: 2px solid;
+    /* border: 0.5px solid; */
     border-image: var(--clr-linear) ;
     margin-bottom: 2rem;
 }
@@ -201,6 +219,7 @@
     .team__box1-title {
         font-size: var(--size-3xl);
     }
+
 
 }
 
