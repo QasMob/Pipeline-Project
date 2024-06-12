@@ -227,6 +227,11 @@
 /* md */
 @media (min-width: 768px) {
 
+
+    .testtestimonial__box1-img {
+        width:4.5rem;
+    }
+
     .team__box1-quote {
         position: absolute;
         top: -1rem;
