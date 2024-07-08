@@ -7,7 +7,7 @@
   width: 100%;
   background-color: var(--clr-white);
   z-index: 100000;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
